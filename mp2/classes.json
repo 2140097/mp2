@@ -3,13 +3,13 @@
         "classcode": "7074",
 		"adviser": "Cristina Segnaken Aban",
         "classdays":  [
-            {   //classday
+            {  
                 "classday": "Monday",
                 "classhours": [
-                    {   //classhour
+                    {  
                         "classhour": "7:30-8:30",
                         "students": [
-                            {   //student
+                            {  
                                 "idno": "2151234",
                                 "name": "Akai, Red",
                                 "demerit": "",
@@ -17,7 +17,7 @@
                                 "report": ""
                             },
 
-                            {   //student
+                            { 
                                 "idno": "2151235",
                                 "name": "Akai, Izamu",
                                 "demerit": "",
@@ -28,7 +28,7 @@
                         ]
                     },
 
-                    {   //classhour
+                    {  
                         "classhour": "8:00-9:00",
                         "students": [
                             {
@@ -50,7 +50,7 @@
                         ]
                     },
 
-                    {   //classhour
+                    {  
                         "classhour": "8:30-9:30",
                         "students": [
                             {
@@ -74,13 +74,13 @@
                 ]
             },
 
-             {   //classday
+             { 
                 "classday": "Tuesday",
                 "classhours": [
-                    {   //classhour
+                    { 
                         "classhour": "7:30-8:30",
                         "students": [
-                            {   //student
+                            { 
                                 "idno": "2151234",
                                 "name": "Akai, Red",
                                 "demerit": "",
@@ -88,7 +88,7 @@
                                 "report": ""
                             },
 
-                            {   //student
+                            {  
                                 "idno": "2151235",
                                 "name": "Akai, Izamu",
                                 "demerit": "",
@@ -99,7 +99,7 @@
                         ]
                     },
 
-                    {   //classhour
+                    {  
                         "classhour": "8:00-9:00",
                         "students": [
                             {
@@ -121,7 +121,7 @@
                         ]
                     },
 
-                    {   //classhour
+                    { 
                         "classhour": "8:30-9:30",
                         "students": [
                             {
@@ -142,7 +142,7 @@
 
                         ]
                     },
-                    {   //classhour
+                    { 
                         "classhour": "9:30-10:30",
                         "students": [
                             {
@@ -172,13 +172,13 @@
         "classcode": "7004",
 		"adviser": "Makil Roderick",
         "classdays":  [
-            {   //classday
+            {  
                 "classday": "Monday",
                 "classhours": [
-                    {   //classhour
+                    {  
                         "classhour": "7:30-8:30",
                         "students": [
-                            {   //student
+                            {  
                                 "idno": "2151234",
                                 "name": "Akai, Red",
                                 "demerit": "",
@@ -186,7 +186,7 @@
                                 "report": ""
                             },
 
-                            {   //student
+                            {  
                                 "idno": "2151235",
                                 "name": "Akai, Izamu",
                                 "demerit": "",
@@ -197,7 +197,7 @@
                         ]
                     },
 
-                    {   //classhour
+                    { 
                         "classhour": "8:00-9:00",
                         "students": [
                             {
@@ -219,7 +219,7 @@
                         ]
                     },
 
-                    {   //classhour
+                    {  
                         "classhour": "8:30-9:30",
                         "students": [
                             {
@@ -243,13 +243,13 @@
                 ]
             },
 
-             {   //classday
+             {  
                 "classday": "Tuesday",
                 "classhours": [
-                    {   //classhour
+                    { 
                         "classhour": "7:30-8:30",
                         "students": [
-                            {   //student
+                            {  
                                 "idno": "2151234",
                                 "name": "Akai, Red",
                                 "demerit": "",
@@ -257,7 +257,7 @@
                                 "report": ""
                             },
 
-                            {   //student
+                            {  
                                 "idno": "2151235",
                                 "name": "Akai, Izamu",
                                 "demerit": "",
@@ -268,7 +268,7 @@
                         ]
                     },
 
-                    {   //classhour
+                    {  
                         "classhour": "8:00-9:00",
                         "students": [
                             {
@@ -290,7 +290,7 @@
                         ]
                     },
 
-                    {   //classhour
+                    {  
                         "classhour": "9:30-10:30",
                         "students": [
                             {
