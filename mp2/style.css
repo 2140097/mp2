@@ -1,0 +1,33 @@
+#box {
+    text-align: center;
+    margin: 200px auto;
+}
+
+#box h1 {
+    font-family: Arial;
+}
+
+#box p {
+    font-family: Arial;
+}
+
+#box #classcodelist {
+    color: white;
+    background: #222222;
+}
+
+#box #classhourlist li {
+    list-style-type: none;
+}
+
+#box #classhourlist li button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin: 3px;
+    background: #222222;
+    color: orange;
+}
+#box #classhourlist li button:hover {
+    color: red;
+}
