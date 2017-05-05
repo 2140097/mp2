@@ -1,0 +1,43 @@
+<!Doctype html>
+<head>
+    <title>Reports</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 id="reportsh">NSTP Report</h1>
+    <h2 id="printdetails">note: use "Ctrl + P" or "Ctrl + S" to print or save
+    <br>mobile: use phone screen capture
+    <br>alternative: copy contents, paste to textfile and save</h2>
+        <p id="reportbox">
+            <label><b>Date: </b></label><span id="dateToday"></span>
+        </p>
+        
+    <script>
+        classes = JSON.parse(localStorage.getItem("classes"));
+        document.getElementById("dateToday").innerHTML = localStorage.getItem("today");
+        document.getElementById("reportbox").innerHTML += "<br><br>";
+        for(x=0; x<classes.length; x++){
+            document.getElementById("reportbox").innerHTML += "<b>Class: </b>" + "<span>" + classes[x].classcode + "</span><br><br>";
+            for(y=0; y<classes[x].classdays.length; y++){
+                for(z=0; z<classes[x].classdays[y].classhours.length; z++){
+                     for(a=0; a<classes[x].classdays[y].classhours[z].students.length; a++){
+                         if(classes[x].classdays[y].classhours[z].students[a].report != ""){
+                            document.getElementById("reportbox").innerHTML += classes[x].classdays[y].classhours[z].students[a].name + "</span><br>";
+                            reportsArray = JSON.stringify(classes[x].classdays[y].classhours[z].students[a].report).split("\n");
+                            for(b=0; b< reportsArray.length; b++){
+                                document.getElementById("reportbox").innerHTML += reportsArray[b] + "<br>";
+                            }
+                            document.getElementById("reportbox").innerHTML += "</span><br>";
+                         }
+                    }
+                }
+            }
+        }
+
+            //document.getElementById("reportbox").innerHTML += "<label>Class</label>"<span></span>";
+    </script>            
+    <noscript>JavaScript required</noscript>
+</body>
+</html>

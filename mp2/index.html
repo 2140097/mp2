@@ -1,15 +1,33 @@
 <!Doctype html>
+<html manifest="nstp.appcache">
 <head>
     <title>NSTP</title>
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
     <script language="javascript" src="script.js"></script>
 </head>
-<body onload="showClasscodes()">
+<body>
     <div id="box">
+	<img src="logo.png" height=200 width=250 id="logo">
         <h1>NSTP</h1>
+        <button onclick="startRequest()" id="requestbtn">get class</button>
+        <button onclick="resetLocalStorage()" id="resetbtn">reset</button><br>
+        <input type="file" id="readtextfile"><br>
         <div id="selectionbox">
-            <p id="selectwhat">Select a class code . . . </p>
+            <p id="selectwhat">nstp attendance check . . . </p>
+            <button onclick="showClasscodes()" id="startbtn">start</button><br>
+        </div>
+        <div id="latepopup">
+            <p id="latelabel"></p>
+            <select id="latemins">
+                <option selected disabled>--minutes--</option>
+                <option>3-5 minutes</option>
+                <option>6-14 minutes</option>
+            </select>
+            <span id=confirm><span>
+                <br><br>
+            <button onclick="hideLatePopup()" id="cancelbtn">cancel</button>
         </div>
     </div>
     <noscript>JavaScript required</noscript>

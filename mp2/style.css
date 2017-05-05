@@ -1,10 +1,16 @@
 #box {
     text-align: center;
-    margin: 200px auto;
+    margin: 20% auto;
+}
+
+body{
+   min-width:350px; 
+   width: auto; 
 }
 
 #box h1 {
     font-family: Arial;
+    color: #00004d;
 }
 
 #box p {
@@ -18,16 +24,306 @@
 
 #box #classhourlist li {
     list-style-type: none;
+    display: inline;
+    text-align: left;
+    height: auto;
+    display: none;
+    left: 0;
+    right: 0;
+}
+
+#box #classhourlist {
+    padding: 0;
 }
 
 #box #classhourlist li button {
-    padding: 5px;
-    border-radius: 5px;
+    background: none;
     border: none;
-    margin: 3px;
-    background: #222222;
     color: orange;
 }
+
 #box #classhourlist li button:hover {
     color: red;
+}
+
+#studentlist {
+    margin-top: 1%;
+	white-space: nowrap;
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+
+#advisername {
+    font-family: helvetica;
+}
+
+#classhourlabel{
+    text-align: left;
+}
+
+#table button {
+    padding: 10px;
+}
+
+#reportbtn {
+    margin: 0.53em;
+    margin-left: 0.5em;
+    color: white;
+    background-color: #1ab2ff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#reportbtn:hover {
+    background-color: #0077b3;
+}
+
+#notifspan {
+    margin-left: 0.5%;
+    color: #8ae600;
+    font-family: Helvetica;
+}
+
+#startbtn {
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background: #3498db;
+    border-radius: 5px;
+    border: 1px solid #2980b9;
+}
+
+#startbtn:hover {
+    background: #2980b9;
+}
+
+img {
+  width: auto ;
+  max-width: 35% ;
+  height: auto ;
+}
+
+#reportsh {
+    font-family: Helvetica;
+    font-size: 25px;
+}
+
+#printdetails {
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+#requestbtn {
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #9b59b6;
+    border: 1px solid #8e44ad;
+    margin: 0.1em;
+    margin-bottom: 1em;
+}
+
+#requestbtn:hover {
+    background: #8e44ad;
+}
+
+#resetbtn {
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #34495e;
+    border: 1px solid #2c3e50;
+    margin: 0.1em;
+    margin-bottom: 1em;
+}
+
+#resetbtn:hover {
+    background: #2c3e50;
+}
+
+table [id^="absentchkbox"] {
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    background: #95a5a6;
+}
+
+table [id^="absentchkbox"]:hover {
+    background: #7f8c8d;
+}
+
+#latepopup {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    border: 2px solid black;
+    color: white;
+    background: #222222;
+    visibility: hidden;
+    border-collapse: collapse;
+}
+
+#latelabel {
+    margin-top: 20%;
+}
+
+#cancelbtn {
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background: #34495e;
+    border-radius: 5px;
+    border: 1px solid #2c3e50;
+}
+
+#cancelbtn:hover {
+    background: #2c3e50;
+}
+
+#latemins {
+    background: #222222;
+    color: white;
+}
+
+#lateconfirmbtn {
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background: #1abc9c;
+    border-radius: 5px;
+    border: 1px solid #16a085;
+}
+
+#lateconfirmbtn:hover {
+    background: #16a085;
+}
+
+/**table*/
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+}
+
+table tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+table th,
+table td {
+  padding: .600em;
+  text-align: center;
+}
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1270px) {
+  table tr th:last-child {
+    display: none;
+  }
+  table tr td:last-child {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+  table tr th:first-child {
+    display: none;
+  }
+  table tr td:first-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        width: auto ;
+        max-width: 50% ;
+        height: auto ;
+    }
+}
+
+@media screen and (max-width: 720px) {
+  table {
+    border: 0;
+  }
+
+  
+  table th {
+    display: block;
+    font-weight: normal;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .600em;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: center;
+  }
+  table td:before {
+    content: attr(col);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+  table tr th:last-child {
+    display: initial;
+  }
+  table tr td:last-child {
+    display: initial;
+  }
+    table tr th:first-child {
+    display: initial;
+  }
+  table tr td:first-child {
+    display: initial;
+  }
+
+}
+
+@media screen and (max-width: 300px) {
+    img {
+        width: auto ;
+        max-width: 75% ;
+        height: auto ;
+    }
+}
+
+@media screen and (max-width: 205px) {
+    img {
+        width: auto ;
+        max-width: 100% ;
+        height: auto ;
+    }
 }

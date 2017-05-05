@@ -1,0 +1,157 @@
+*{
+    background-color: lightblue;
+}
+#box {
+    text-align: center;
+    margin: 3% auto;
+    padding: 20px;
+}
+
+#box h1 {
+    font-family: fantasy;
+    color: #00004d;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+#box p {
+    font-family: cursive;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#selectionbox button{
+    font-family:serif;
+    font-size: 25px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    letter-spacing: 1px;
+}
+
+#selectionbox button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+#box #classcodelist {
+    color: white;
+    background: #222222;
+}
+
+#box #classhourlist li {
+    list-style-type: none;
+    display: inline;
+    text-align: left;
+    height: auto;
+    display: none;
+    left: 0;
+    right: 0;
+}
+
+#box #classhourlist {
+    padding: 0;
+}
+
+#box #classhourlist li button {
+    background: none;
+    border: none;
+    color: orange;
+}
+
+#box #classhourlist li button:hover {
+    color: red;
+}
+
+#studentlist {
+    margin-top: 1%;
+	white-space: nowrap;
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #bbb;
+}
+
+#studentlist td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 1%;
+}
+
+#studentlist tr:nth-child(even) {
+	background-color: #3498db;
+    color: white;
+}
+
+#studentlist tr:nth-child(odd) {
+	background-color: white;
+}
+
+#advisername {
+    font-family: helvetica;
+}
+
+#classhourlabel{
+    text-align: left;
+}
+
+#latepopup {
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    border: 2px solid black;
+    padding: 1%;
+    color: white;
+    background: #222222;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+#table button {
+    padding: 10px;
+}
+
+#reportbtn {
+    margin-left: 0.5%;
+    color: white;
+    background-color: #1ab2ff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#reportbtn:hover {
+    background-color: #0077b3;
+}
+
+#notifspan {
+    margin-left: 0.5%;
+    color: #8ae600;
+    font-family: Helvetica;
+}
+/**
+#startbtn {
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background: #3498db;
+    border-radius: 5px;
+    border: 1px solid #2980b9;
+}
+
+#startbtn:hover {
+    background: #2980b9;
+}
+*/
+img {
+  width: auto ;
+  max-width: 50% ;
+  height: auto ;
+}

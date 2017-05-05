@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+<head>
+    <title>NSTP Attendance Checker</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script language="javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="box">
+	<img src="logo.png">
+        <h1>Saint Louis University - National Service Training Program</h1>
+        <button onclick="startRequest()" id="requestbtn">Get Class from Server</button>
+        <input type="file" id="readtextfile"><br>
+        <div id="selectionbox">
+            <p id="selectwhat">An attendance checker for NSTP students of SLU to check for additional hour needed if there is any late or absences.</p>
+            <button onclick="showClasscodes()" id="startbtn">NSTP Attendance Checker</button><br>
+        </div>
+        <div id="latepopup">
+            <p id="latelabel"></p>
+            <select id="latemins">
+                <option selected disabled>--minutes--</option>
+                <option>3-5 minutes</option>
+                <option>6-14 minutes</option>
+            </select>
+            <span id=confirm></span>
+                <br><br>
+            <button onclick="hideLatePopup()">cancel</button>
+        </div>
+    </div>
+    <noscript>JavaScript required</noscript>
+</body>
+</html>
